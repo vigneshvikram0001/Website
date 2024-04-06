@@ -55,6 +55,14 @@ header {
   font-weight: 600;
   color: var(--color);
 }
+.logo_img {
+  width: 200px;
+  height: 100%;
+}
+.logo_img img {
+  width: 100%;
+  height: 100%;
+}
 span {
   color: var(--main-color);
 }
@@ -662,6 +670,14 @@ section {
   }
   .contact .newslatter input {
     width: 65%;
+  }
+  .logo_img {
+    width: 100px !important;
+    height: 100%;
+  }
+  .logo_img img {
+    width: 100%;
+    height: 100%;
   }
 }
 

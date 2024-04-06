@@ -14,16 +14,15 @@ window.onscroll = () => {
 const sr = ScrollReveal({
   distance: '40px',
   duration: 2600,
-  reset: true
+  // reset: true
 })
 const st = ScrollReveal({
   distance: '50px',
   duration: 2800,
-  reset: true
+  // reset: true
 })
 sr.reveal('.home-text', {delay: 300, origin:'left'})
 sr.reveal('.about, .services, .portfolio, .blog', {delay: 10, origin:'bottom'})
-sr.reveal('.newslatter, .content-h3', {delay: 150, origin:'bottom'})
 sr.reveal('.about-img img', {delay: 170, origin:'left'})
 st.reveal('.box:nth-child(1)', {delay: 100, origin:'left'})
 st.reveal('.box:nth-child(2)', {delay: 100, origin:'bottom'})
